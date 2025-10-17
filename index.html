@@ -12,3 +12,58 @@
             --function-btn-bg: #2d313a;
             --equals-btn-bg: #f39c12;
             --text-color: #FFFFFF;
+            --operator-text-color: #ff9d00;
+            --function-text-color: #26c1d3;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: var(--bg-color);
+        }
+
+        .calculator {
+            position: relative;
+            background-color: var(--display-bg);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            width: 90vw;
+            max-width: 320px;
+        }
+
+        .display {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .display input {
+            width: 100%;
+            padding: 15px;
+            font-size: 2em;
+            text-align: right;
+            border: none;
+            background-color: var(--display-bg);
+            color: var(--text-color);
+            border-radius: 10px;
+            outline: none;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        .buttons button {
+            padding: 15px;
+            font
