@@ -1,11 +1,10 @@
 # Tds Calculator V3
 
-**Task Brief (Round 1)**
+**Task Brief (Round 2)**
 
-Create a simple calculator app with buttons for numbers 0-9 and operations +, -, *, / and = to show result
+Add advanced calculator functions (multiply, divide) and improve UI for Round 2
 
 **Checks:**
-- Calculator has number buttons 0-9
-- Has operation buttons +, -, *, /
-- Has equals button to calculate
-- Shows result in display
+- Page should perform addition, subtraction, multiplication, division
+- UI must be responsive
+- Results must update instantly without page reload
